@@ -11,7 +11,7 @@ const GROUP_NEWS = {
 }
 
 const app = express()
-const PORT = 8080
+const PORT = PORT = process.env.PORT || 3000;
 
 app.use(cors())
 
